@@ -1,0 +1,270 @@
+.dashboard{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  background-color: #007E8A;
+}
+/* ---------------------------------------------------------------------------------------------------------- */
+/* PARTE SINISTRA */
+/* .box-left{
+  width: 25%;
+  margin-left: 0px;
+  background-color: #00ccbc;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 60%);
+    .logo{
+    margin:10% 37%;
+    width: 18%;
+    height: 18%;
+    border-radius:100%;
+    background-color: #53B9F6;
+    text-align: center;
+    }
+    .btn{
+    color: white;
+  margin: 10px;
+  margin-left: 70px;
+  width: 200px;
+  background-color: #007E8A;
+
+}
+} */
+
+
+/* .btn-1:hover{
+    background-color: white;
+    color: #007E8A;
+    }
+    .btn-2:hover{
+    background-color: #FA4F59;
+    color: white;
+   } */
+
+/* ----BOTTONI DELLA CARTA---- */
+
+.btn{
+  color: white;
+  margin: 10px;
+  margin-left: 70px;
+  width: 200px;
+  background-color: #007E8A;
+
+}
+.btn-eye{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 100%;
+  margin-left: 15px;
+  background-color: #007E8A;
+}
+
+.btn-edit{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 100%;
+    margin-left: 15px;
+  background-color: #00CCBC;
+
+  }
+
+  form button.btn.btn-delete{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 100%;
+    margin-left: 15px;
+    background-color: #9B006C;
+    margin-top: 20px;
+  }
+
+.btn-22{
+  width: 75px;
+  height: 40px;
+  text-align: center;
+  font-size: 15px;
+  margin-left: 15px;
+}
+.btn-22:hover{
+    background-color: #00CCBC;
+    color: #007E8A;
+}
+
+.form-container{
+    margin-top: -10px;
+}
+
+/* ul{
+  list-style-type:none;
+  margin-left: 0;
+}
+li{
+  list-style: none;
+} */
+
+
+/* .box-right{
+  width: 75%;
+  margin-left: 0px;
+  background-color: #D0EB99;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 45% 100%, 0 85%);
+
+  .restaurants-index{
+    display: flex;
+    margin-bottom: 170px;
+
+  }
+} */
+
+.restaurants-index{
+    display: flex;
+    margin-bottom: 170px;
+
+  }
+/* .card-bodyy{
+  width: 50%;
+  background-color: white;
+  margin:200px auto;
+  text-align: center;
+  box-shadow: 0 0 0 0 rgba(245, 241, 241, 0.7);
+  border-radius: 40px;
+  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+} */
+
+/* h3{
+  margin: 20px;
+} */
+/* .card-bodyy{
+  animation: pulse 5s infinite;
+} */
+
+/* @keyframes pulse {
+  0%{
+    font-size: 10px;
+  }
+  50% {
+    font-size: 12px;
+  }
+  100% {
+    font-size: 10px;
+  }
+} */
+
+.restaurants-index {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0px;
+  margin-bottom: 170px;
+}
+
+.restaurant-card-index {
+  max-width: 250px;
+  /* flex-basis: 100%; */
+  border: 2px ridge $gold;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  background: rgba(12, 10, 145, 0.26);
+  //transition: 1s ease-in-out;
+}
+
+.restaurant-card-index:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+.title-restaurant-card h1{
+  text-align: center;
+  color: #101927;
+  font-size: 20px;
+  padding: 5px 0;
+}
+
+.cover-card {
+    /* background-color: rgb(33, 145, 33); */
+    width: 200px;
+}
+
+.cover-card img{
+    text-align: center;
+  max-width: 260px;
+  max-height: 200px;
+  border-radius: 10px;
+}
+
+.action-restaurant-card-index{
+  /* padding: 7px 0; */
+  display: flex;
+  /* justify-content: space-around; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.details-restaurant-card-index{
+  padding: 5px 0;
+}
+
+
+.restaurant-card-index.post{
+  /* height: 200px; */
+  margin: 15px;
+  box-shadow: -2px 2px 10px #666;
+  /* transform: rotate(-2deg); */
+  background: url(/img/pin.png) right 10px top no-repeat, url(/img/pin.png) left top no-repeat, #FFF;
+  background-size: 40px, 40px, auto;
+  padding: 30px 25px;
+
+}
+
+.post:hover{
+    transform: rotate(-2deg);
+  background: url(/img/pin.png) right 10px top no-repeat, url(/img/pin.png) left top no-repeat, #FFF;
+  background-size: 40px, 40px, auto;
+
+
+  }
+
+.action-restaurant-card{
+  display: flex;
+  /* justify-content: space-between; */
+  /* background-color: red; */
+  height: 50px;
+  width: 200px;
+  /* margin-left: -25px; */
+}
+
+a{
+  margin-left: 10px;
+}
+
+.action-restaurant-menu{
+  display: flex;
+  /* justify-content: space-between; */
+  /* background-color: red; */
+  height: 50px;
+  width: 200px;
+  /* margin-left: -25px; */
+  margin-top: 15px;
+}
+
+ /* .container-box-restaurant{
+     overflow-y: scroll;
+ } */
+
+h5{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+ h5 span{
+    font-size: 15px;
+    color: red;
+    font-weight: normal;
+ }

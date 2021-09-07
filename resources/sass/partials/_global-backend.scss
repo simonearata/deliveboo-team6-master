@@ -1,0 +1,172 @@
+/* DASHBORD FISSA BACKEND */
+.img-dashbord{
+  width: 80px;
+}
+
+/* PARTE DESTRA LOGIN HOME.BLADE:PHP */
+.card-login{
+  border-radius: 20px;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  margin: 250px auto;
+  height: 100px;
+  width: 400px;
+  transform: scale(1);
+  animation: pulse-black 2s infinite;
+  background: rgb(86, 186, 230);
+  box-shadow: 0 0 0 0 rgba(52, 172, 224, 1);
+  animation: pulse-blue 2s infinite;
+  color: white;
+  font-size: 30px;
+  padding-top:20px;
+}
+
+@keyframes pulse-blue {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(52, 172, 224, 0.7);
+    }
+
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(52, 172, 224, 0);
+    }
+
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(52, 172, 224, 0);
+    }
+  }
+
+
+/* PARTI COMUNI PARTE SINISTRA DASHBORD (box-left)*/
+
+.box-left{
+  width: 25%;
+  margin-left: 0px;
+  background-color: #00ccbc;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 60%);
+    .logo{
+    margin:30px;
+    width: 100px;
+    height: 100px;
+    border-radius:100%;
+    background-color: white;
+    text-align: center;
+    }
+    /* .btn{
+    color: white;
+  margin: 10px;
+  margin-left: 70px;
+  width: 200px;
+  background-color: #007E8A;
+
+} */
+}
+
+.title-benvenuto{
+  margin-top: 10px;
+  font-size: 30px;
+  color: red;
+  text-align: center;
+
+  .span-benvenuto{
+    color: blue;
+  }
+}
+
+
+.content-video{
+  margin: 0 auto;
+  width: 60%;
+  .ristoratore-logo.logo{
+  margin:10% 30%;
+  width: 50%;
+  height: 50%;
+  border-radius:100%;
+  background-color: #53B9F6;
+  /* text-align: center; */
+  }
+
+}
+
+.contenitore-btn-sinistra{
+  /* width: 80%;
+  margin:0 auto; */
+  .list-btn-sinistra{
+      width: 80%;
+      margin:0 auto;
+
+      .bottoni-sinistra{
+        width: 80%;
+        margin:0 auto;
+      a.btn.btn-1{
+        color: white;
+        width: 75%;
+        /* margin: 10px auto; */
+        /* margin-left: 70px; */
+        margin: 5% 20%;
+        background-color: #007E8A;
+        &:hover{
+          background-color: white;
+          color: #007E8A;
+        }
+        /* .btn-2:hover{
+          background-color: #FA4F59;
+          color: white;
+         } */
+      }
+      a.btn.btn-1.btn-2:hover{
+          background-color: #FA4F59;
+          color: white;
+      }
+      }
+  }
+}
+
+/* a.btn.btn-1{
+  color: white;
+width: 70%;
+margin: 10px auto;
+margin-left: 70px;
+
+background-color: #007E8A;
+} */
+
+
+
+/* PARTI COMUNI PARTE DESTRA DASHBORD (box-right)*/
+
+.box-right{
+  width: 75%;
+  margin-left: 0px;
+  background-color: #D0EB99;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 45% 100%, 0 85%);
+
+  /* .restaurants-index{
+    display: flex;
+    margin-bottom: 170px;
+
+  } */
+}
+
+h3{
+  margin: 20px;
+}
+
+h1{
+  margin:10px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.container-box-new-restaurant{
+  margin-top: 50px;
+  width: 70%;
+  margin: auto;
+}
+
+.form_label{
+  width: 50%;
+  /* margin: 5px 250px; */
+  text-align: center;
+}

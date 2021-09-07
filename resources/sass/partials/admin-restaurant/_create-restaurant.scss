@@ -1,0 +1,173 @@
+.dashboard{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  background-color: #007E8A;
+}
+/* ---------------------------------------------------------------------------------------------------------- */
+/* PARTE SINISTRA */
+.form-container{
+  margin-top: -10px;
+}
+
+ .restaurants-box-form{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  background-color: rgba(0, 126, 138,0.5);
+  border-radius: 20px;
+  transition: 2s;
+  margin-top:25px;
+
+  &:hover{
+      background-color: rgb(0, 126, 138);
+  }
+}
+
+ input.checkbox{
+     width: 15px;
+     height: 15px;
+     margin:5px;
+ }
+
+ .btn-send-reset{
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .btn.btn-send{
+  color: white;
+  margin: 10px;
+  margin-left: 10px;
+  width: 100px;
+  height: 35px;
+  background-color: #FF8100;
+ }
+
+ .btn.btn-reset{
+  color: white;
+  margin: 10px;
+  width: 100px;
+  height: 35px;
+  background-color: #FA4F59;
+ }
+
+ .form-create{
+     width: 100%;
+     margin: auto;
+ }
+
+ .ristorante{
+     display: inline-block;
+     align-items: flex-end;
+     width: 100px;
+     margin-left:90%;
+     margin-bottom: 100px;
+
+
+
+ }
+
+.form-control.form-color{
+  background-color: rgb(24, 139, 140);
+  transition: 2s;
+}
+
+.form-control.form-color:hover{
+
+  background-color: rgb(0, 126, 138);
+
+}
+
+.line-form{
+  display:block;
+  height:50px;
+  width:90%;
+  margin:0 auto;
+  border:none;
+  background-color: #b4f0eb;
+  border-radius: 10px;
+  &::placeholder{
+      text-align: center;
+    -webkit-transform:translateY(0px);
+      transform:translateY(0px);
+    -webkit-transition:.5s;
+      transition:.5s;
+      color: #007E8A;
+  }
+  &:hover,
+  &:focus,
+  &:active:focus{
+    color:white;
+    outline:none;
+    border-bottom:1px solid white;
+    background-color: transparent;
+    &::placeholder{
+      color:white;
+      position:relative;
+      -webkit-transform:translateY(-15px);
+      transform:translateY(-15px);
+
+    }
+  }
+}
+
+select{
+  height:45px;
+  width:54%;
+  margin:0 auto;
+  border:none;
+  background-color: #b4f0eb;
+  border-radius: 10px;
+  font-weight: 400;
+  color: #007E8A;
+  text-align: center;
+  padding: 10px 10px;
+  line-height: normal;
+  transition: border-color 0.2s ease,
+              outline 0.2s ease;
+              margin-left:130px ;
+
+      &:focus {
+          box-shadow: 0 3px 4px rgba(blue, 0.3)
+  }
+
+}
+
+input.form-control.cover{
+  width: 60%;
+  margin: 10px auto;
+  background-color: #b4f0eb;
+
+}
+
+span.span-check{
+  display: inline-block;
+  width: 70px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+
+}
+
+span.category-check{
+font-size: 12px;
+color: #b4f0eb;
+}
+
+h6{
+  color:white;
+  margin-left: 15px;
+  margin-top: 25px;
+  margin-bottom: -10px;
+}
+
+.category-box{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cover-inserita{
+  margin-top: -15px;
+}

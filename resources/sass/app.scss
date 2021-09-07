@@ -1,0 +1,39 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+//Box-left
+@import 'partials/admin-restaurant/index-restaurants';
+//login
+@import 'partials/admin-restaurant/login';
+//register
+@import 'partials/admin-restaurant/register';
+//create-restaurant
+@import 'partials/admin-restaurant/create-restaurant';
+//edit-restaurant
+@import 'partials/admin-restaurant/edit-restaurant';
+
+
+//global backend
+@import 'partials/global-backend';
+
+//show
+@import 'partials/admin-restaurant/show-restaurant';
+
+//create-dish
+@import 'partials/admin-dish/create-dish';
+
+@import 'partials/admin-dish/index-dish';
+
+
+
+.dashboardd{
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #007E8A;
+}

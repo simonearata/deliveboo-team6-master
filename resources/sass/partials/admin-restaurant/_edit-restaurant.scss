@@ -1,0 +1,467 @@
+.dashboard{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  background-color: #007E8A;
+}
+/* ---------------------------------------------------------------------------------------------------------- */
+/* PARTE SINISTRA */
+/*   .box-left{
+  width: 25%;
+  margin-left: 0px;
+  background: linear-gradient(to right, #00ccbc 60%, #d0eb99 100%);
+  background-color: #00ccbc;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 60%);
+    .logo{
+    margin:30px;
+    width: 100px;
+    height: 100px;
+    border-radius:100%;
+    background-color: white;
+    text-align: center;
+    }
+    .btn{
+    color: white;
+  margin: 10px;
+  margin-left: 70px;
+  width: 200px;
+  background-color: #007E8A;
+
+}
+} */
+
+/* .btn{
+    color: white;
+  margin: 10px;
+  margin-left: 70px;
+  width: 200px;
+  background-color: #007E8A;
+
+} */
+/* .btn-1:hover{
+    background-color: white;
+    color: #007E8A;
+    }
+    .btn-2:hover{
+    background-color: #FA4F59;
+    color: white;
+   } */
+
+
+
+
+
+
+/*   .btn-eye{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 100%;
+  margin-left: 15px;
+  background-color: #007E8A;
+} */
+
+/*   .btn-edit{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 100%;
+    margin-left: 15px;
+  background-color: #00CCBC;
+
+  } */
+
+/*     .btn-delete{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 100%;
+    margin-left: 15px;
+    background-color: #da06be;
+    margin-top: 15px;
+
+  } */
+
+/*   .btn-22{
+  width: 75px;
+  height: 40px;
+  text-align: center;
+  font-size: 15px;
+  margin-left: 15px;
+}
+.btn-22:hover{
+    background-color: #00CCBC;
+    color: #007E8A;
+} */
+
+.form-container{
+
+
+        margin-top: -10px;
+
+}
+
+/*  ul{
+  list-style-type:none;
+}
+li{
+  list-style: none;
+} */
+/* .box-right{
+  width: 75%;
+  margin-left: 0px;
+  background-color: #D0EB99;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 45% 100%, 0 85%);
+
+  .restaurants-index{
+    display: flex;
+  }
+} */
+
+/* h3{
+
+  margin: 20px;
+} */
+/* .card-bodyy{
+  animation: pulse 5s infinite;
+} */
+/*
+@keyframes pulse {
+  0%{
+    font-size: 10px;
+  }
+  50% {
+    font-size: 12px;
+  }
+  100% {
+    font-size: 10px;
+  }
+} */
+
+/* .restaurants-box-form{
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  margin: auto;
+  background-color: red;
+
+} */
+
+/*  .restaurant-card-index {
+  max-width: 250px;
+
+  flex-basis: 100%;
+  border: 2px ridge $gold;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  background: rgba(12, 10, 145, 0.26);
+
+  transition: 1s ease-in-out;
+} */
+
+/* .restaurant-card-index:hover {
+  background: rgba(255, 255, 255, 1);
+} */
+
+/* .title-restaurant-card h1{
+  text-align: center;
+  color: #101927;
+  font-size: 20px;
+  padding: 5px 0;
+} */
+
+/* .cover-card img{
+  max-width: 250px;
+  max-height: 150px;
+  border-radius: 10px;
+} */
+
+/* .action-restaurant-card-index{
+  padding: 7px 0;
+  display: flex;
+  justify-content: space-around;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+
+
+/* h1{
+    margin:10px;
+    font-size: 40px;
+    text-align: center;
+} */
+
+/* .button-ordini-index{
+  color: #101927;
+  background: rgba(134, 221, 134, 0.5);
+}
+
+.button-index {
+  margin-bottom: 7px;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  border: 1px solid $gold;
+  border-radius: 10px;
+  width: 50%;
+  text-align: center;
+  transition: all 1s ease-in-out;
+  display: inline-block;
+}
+
+.button-index:hover {
+  border-radius: 50%;
+  border: 1px solid #422e20;
+  color: rgb(170, 170, 20);
+} */
+
+/* .details-restaurant-card-index{
+  padding: 5px 0;
+} */
+
+
+/* .post{
+  height: 200px;
+  margin: 20px;
+  box-shadow: -2px 2px 10px #666;
+  transform: rotate(-2deg);
+  background: url(/img/pin.png) right 10px top no-repeat, url(/img/pin.png) left top no-repeat, #FFF;
+  background-size: 40px, 40px, auto;
+  padding: 50px;
+
+} */
+
+/* .post:hover{
+    transform: rotate(-2deg);
+  background: url(/img/pin.png) right 10px top no-repeat, url(/img/pin.png) left top no-repeat, #FFF;
+  background-size: 40px, 40px, auto;
+
+
+  } */
+
+ /* .action-restaurant-card{
+     display: flex;
+     justify-content: space-between;
+     background-color: red;
+     height: 50px;
+     width: 200px;
+     margin-left: -25px;
+ } */
+
+ /* a{
+     margin-left: 10px;
+ } */
+
+ /* .action-restaurant-menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    height: 50px;
+    width: 200px;
+    margin-left: -25px;
+    margin-top: 15px;
+ } */
+
+ /* .restaurants-box-form{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+  background-color: #007E8A;
+  background-color: rgba(0, 126, 138,0.5);
+  border-radius: 20px;
+  transition: 2s;
+  margin-top: 25px;
+
+  &:hover{
+      background-color: rgb(0, 126, 138);
+      transition: 2s;
+  }
+} */
+
+ /* input.checkbox{
+     width: 15px;
+     height: 15px;
+     margin:5px;
+ } */
+
+
+ /* .btn-send-reset{
+     display: flex;
+     justify-content: space-evenly;
+ } */
+
+ /* .btn.btn-send{
+  color: white;
+  margin: 10px;
+  margin-left: 10px;
+  width: 100px;
+  height: 35px;
+  background-color: #FF8100;
+ } */
+
+ /* .btn.btn-reset{
+  color: white;
+  margin: 10px;
+  width: 100px;
+  height: 35px;
+  background-color: #FA4F59;
+ } */
+
+ /* .form-create{
+     width: 60%;
+     margin: auto;
+ } */
+
+
+ /* .ristorante{
+     display: flex;
+     align-items: flex-end;
+     width: 100px;
+     margin-left:90%;
+     margin-bottom: 100px;
+
+
+ } */
+
+
+/* .form-control.form-color{
+  background-color: rgb(24, 139, 140);
+  transition: 2s;
+} */
+
+/* .form-control.form-color:hover{
+
+  background-color: rgb(0, 126, 138);
+
+} */
+
+
+/* .line-form{
+  position:relative;
+z-index:1;
+border-bottom:1px solid rgba(0,0,0,.1);
+padding-left:20px;
+font-family: 'Open Sans', sans-serif;
+text-transform:uppercase;
+color:#858585;
+font-weight:lighter;
+-webkit-transition:.5s;
+transition:.5s;
+
+} */
+
+/* .line-form{
+  display:block;
+  height:50px;
+  width:90%;
+  margin:0 auto;
+  border:none;
+  background-color: #b4f0eb;
+  border-radius: 10px;
+  &::placeholder{
+      text-align: center;
+    -webkit-transform:translateY(0px);
+      transform:translateY(0px);
+    -webkit-transition:.5s;
+      transition:.5s;
+      color: #007E8A;
+
+
+  }
+  &:hover,
+  &:focus,
+  &:active:focus{
+    color:white;
+    outline:none;
+    border-bottom:1px solid white;
+    background-color: transparent;
+    &::placeholder{
+      color:white;
+      position:relative;
+      -webkit-transform:translateY(-15px);
+      transform:translateY(-15px);
+
+    }
+  }
+} */
+
+
+
+/* select{
+  height:45px;
+  width:54%;
+  margin:0 auto;
+  border:none;
+  border: 1px solid blue;
+  background-color: #b4f0eb;
+  border-radius: 10px;
+  font-weight: 400;
+  color: #007E8A;
+  text-align: center;
+  padding: 10px 10px;
+  line-height: normal;
+  transition: border-color 0.2s ease,
+              outline 0.2s ease;
+              margin-left:130px ;
+
+      &:focus {
+          box-shadow: 0 3px 4px rgba(blue, 0.3)
+  }
+
+} */
+
+/* input.form-control.cover{
+  width: 400px;
+  background-color: #b4f0eb;
+
+} */
+
+
+/* span.span-check{
+  display: inline-block;
+  width: 70px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+
+} */
+
+
+/* span.category-check{
+font-size: 12px;
+color: #b4f0eb;
+} */
+
+/* h6{
+  color:white;
+  margin-left: 15px;
+} */
+
+h3.title-box-right{
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+
+}
+
+.container-box-new-restaurant{
+  margin-top: 100px;
+}
+
+/* .category-box{
+  width: 90%;
+  padding: 20px;
+} */
+
+/* label.label-control.form_label{
+  color:red;
+  text-align: center;
+} */
